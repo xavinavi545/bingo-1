@@ -8,7 +8,6 @@ public class Main {
 		Bingo bingo90 = new Bingo90();
 		bingo90.jugar();
 
-		
 	}
 
 }
