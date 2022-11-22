@@ -2,15 +2,17 @@ package bingo;
 
 public class Bola {
 
+	private int position;
 	private String valor;
 	private boolean activo;
 
 	public Bola() {
-		this.activo = true;
+		this.activo = false;
 	}
 
-	public Bola(String valor, boolean activo) {
+	public Bola(int position, String valor, boolean activo) {
 		super();
+		this.position = position;
 		this.valor = valor;
 		this.activo = activo;
 	}
@@ -31,11 +33,18 @@ public class Bola {
 		this.activo = activo;
 	}
 
+	public int getPosition() {
+		return position;
+	}
+
+	public void setPosition(int position) {
+		this.position = position;
+	}
+
 	@Override
 	public String toString() {
-		//String retorno = "Bola [Valor: " + valor + ", Activo: " + activo + "]";
-		String retorno = valor;
-		return retorno;
+		// String retorno = "Bola [Valor: " + valor + ", Activo: " + activo + "]";
+		return valor;
 
 	}
 
