@@ -10,7 +10,7 @@ public class Bingo90 extends Bingo {
 		super(90);
 		tablero = new Tablero();
 	}
-	
+
 	@Override
 	protected void jugar() {
 		tablero.inicializar();
@@ -27,6 +27,5 @@ public class Bingo90 extends Bingo {
 		}
 
 	}
-
 
 }
