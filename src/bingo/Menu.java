@@ -8,7 +8,7 @@ public class Menu {
 public static void menuJugar() {
   try (Scanner input = new Scanner(System.in)) {
 	  		int n;
-		  System.out.print("Bienvenido, ingrese a que bingo jugar: \n1. Bingo 90 \n2. Bingo 75.\n- ");
+		  System.out.print("Ingresa el BINGO que deseas jugar: \n1. Bingo 90 \n2. Bingo 75.\n- ");
 		  n = input.nextInt();
 		  
 		  switch(n){
